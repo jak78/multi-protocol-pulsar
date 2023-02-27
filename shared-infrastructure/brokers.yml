@@ -26,12 +26,6 @@ services:
       PULSAR_PREFIX_managedLedgerDefaultAckQuorum: 1
       PULSAR_PREFIX_amqpListeners: amqp://broker-1:5672
       PULSAR_PREFIX_mqttListeners: mqtt://broker-1:1883
-    ports:
-      - 6650:6650 # Pulsar Binary
-      - 8080:8080
-      - 9092:9092 # Kafka Binary
-      - 5672:5672 # AMQP
-      - 1883:1883 # MQTT
     healthcheck:
       interval: 5s
       retries: 20

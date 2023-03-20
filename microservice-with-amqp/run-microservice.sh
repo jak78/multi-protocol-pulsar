@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 msWithAmqpFolder="microservice-with-amqp"
 workingDir=$PWD
 

@@ -34,7 +34,7 @@ sh start-brokers.sh
 
 
 
-3️⃣ Start the control plane (Optional)
+3️⃣ **Optional**: Start the control plane
 
 ```bash
 sh start-control-plane.sh

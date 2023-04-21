@@ -6,7 +6,6 @@ Requirements
 - [Docker](https://www.docker.com/get-started) 4.11+
 - [Java](https://openjdk.org/install/) 17+
 - [Maven](https://maven.apache.org/download.cgi) 3.8.6+
-- [Apache Pulsar](https://pulsar.apache.org/download) 2.10.1+
 
 Ensure you have allocated enough memory to Docker: at least 8Gb.
 

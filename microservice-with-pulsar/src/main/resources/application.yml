@@ -1,7 +1,8 @@
 logging:
   level:
     org.apache.pulsar: error
-
+  pattern:
+    console: "%logger{0} %message%n"
 spring:
   pulsar:
     client:
